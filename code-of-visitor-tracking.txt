@@ -1,0 +1,25 @@
+    
+<!-- Do not add this line if you already have the jQuery plugin on your webpage -->
+NOTE: use a jquery file to run this script --- if u already have jquery file in your system then dont put any other files of jquery for this.
+
+
+<!-- Place this code at the body section of your webpage where you intend to place or display the tracking system -->
+<script type="text/javascript">
+
+var width_of_tracking_system = "300px"; /* Set the width of the tracking system. Examples: 100%, 80%, 60%, 300px, 200px, etc */
+
+var header_background_color = "#b60002"; /* You can change the background color of the header if you wish */
+var header_text_color = "#FFF"; /* You can change the text color of the header if you wish */
+var header_img_icon = ""; /* You can provide a URL to an icon on your server to replace the existing header green icon if you wish. Size: width="18px", height="18px"  */
+var  show_header_img_icon = "1"; /* To show/hide the header icon image. Ex: 1 or 0  */
+
+var countries_total_visibility = "1"; /* To show/hide the scrolling countries at the top. Ex: 1 or 0 */
+var countries_report_visibility = "1"; /* To show/hide the scrolling countries at the bottom. Ex: 1 or 0 */
+
+var top_visible_reports_to_display = "4"; /* You can set the number of visible reports to show in the top scroller. Ex: 2, 3, 4, 5, 6 etc */
+var bottom_visible_reports_to_display = "3"; /* You can set the number of visible reports to show in bottom scroller. Ex: 2, 3, 4, 5 etc */
+var vpb_track_code = "DVMJ9C6ZKOL"; /* This is your tracking code or client ID, you don't have to touch it */
+
+</script>
+<script type="text/javascript" src="tracker.js"></script>
+<span id="vpb-vts"></span>
